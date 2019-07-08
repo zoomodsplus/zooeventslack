@@ -65,7 +65,7 @@ class plgSystemZooeventslack extends JPlugin
             }';
 
 
-            $c = curl_init('https://hooks.slack.com/services/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');
+            $c = curl_init(USE YOUR SLACK WBHOOK);
             curl_setopt($c, CURLOPT_SSL_VERIFYPEER, false);
             curl_setopt($c, CURLOPT_POST, true);
             curl_setopt($c, CURLOPT_POSTFIELDS, $message);
